@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Bold.woff2') format('woff2'),
+        url('Circe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Bold Cnd';
+    src: url('AkzidenzGroteskPro-BoldCn.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-BoldCn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+    src: url('AkzidenzGroteskPro-BoldExIt.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-BoldExIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro XBd Cnd';
+    src: url('AkzidenzGroteskPro-XBdCn.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-XBdCn.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro';
+    src: url('AkzidenzGroteskPro-Bold.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro';
+    src: url('AkzidenzGroteskPro-Regular.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+    src: url('AkzidenzGroteskPro-BoldEx.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-BoldEx.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro';
+    src: url('AkzidenzGroteskPro-XBd.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-XBd.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro XBd Cnd';
+    src: url('AkzidenzGroteskPro-XBdCnIt.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-XBdCnIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Bold Cnd';
+    src: url('AkzidenzGroteskPro-BoldCnIt.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-BoldCnIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro';
+    src: url('AkzidenzGroteskPro-XBdIt.woff2') format('woff2'),
+        url('AkzidenzGroteskPro-XBdIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe Extra';
+    src: url('Circe-ExtraBold.woff2') format('woff2'),
+        url('Circe-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Thin.woff2') format('woff2'),
+        url('Circe-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Regular.woff2') format('woff2'),
+        url('Circe-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Light.woff2') format('woff2'),
+        url('Circe-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
