@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="icon" href="images/fav.svg" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap flex flex-space-between flex-center-vertical">
+            <div class="burger js-burger"><span></span><span></span><span></span></div>
+            <div class="header__left flex flex-space-between flex-center-vertical">
+              <div class="header__logo"><a class="logo" href="index.html"><img src="images/logo.png" alt="company-logo"></a><span class="logo-text">Агенство интерент–маркетинга</span></div>
+              <nav class="header__nav flex flex-center-vertical">
+                <ul class="flex flex-space-between flex-center-vertical">
+                  <li><a href="">О комапании</a></li>
+                  <li><a href="">Портфолио</a></li>
+                  <li><a href="services.html">Наши услуги</a></li>
+                  <li><a href="">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__right flex flex-space-between flex-center-vertical"><small class="header__address">г.Санкт-Петербург, ул. Вербная д.27</small><a class="header__mail" href="mailto:info@startib.agency">info@startib.agency</a><a class="header__phone" href="tel:74951286747">+7 (495) 128-67-47</a></div><a class="header__icon" href="tel:74951286747">
+              <svg>
+                <use xlink:href="images/sprites.svg#phone"></use>
+              </svg></a>
+          </div>
+        </div>
+      </header>
+      <section class="intro-section">
+        <div class="container">
+          <div class="intro flex">
+            <div class="intro__info">
+              <h1 class="intro__title">Комплексные услуги для успешного бизнеса в сети</h1>
+              <p class="intro__text">Будет работать – будет продавать</p><a class="btn" href="#head1">Получить консультацию</a>
+            </div>
+            <div id="intro">
+              <div class="intro__layer" data-depth="0.2">
+                <div class="intro__layer-1">
+                  <div class="intro__img"><img src="images/intro-img-bg.svg" alt="intro-img"></div>
+                  <div class="prob__label-3">
+                    <div class="intro__img"><img src="images/bubble.png" alt="intro-img"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="intro__layer intro__layer-2" data-depth="0.8">
+                <div class="intro__img-big"><img class="bg-i" src="images/intro-img-bg-big.png" alt="intro-img" style="background-image: url(images/intro-img-big.jpg);"></div>
+              </div>
+              <div class="intro__layer intro__layer-3" data-depth="0.6">
+                <div class="intro__img-small"><img class="bg-i" src="images/intro-bg.png" alt="intro-img" style="background-image: url(images/intro-img-small.png);"></div>
+              </div>
+              <div class="intro__layer" data-depth="0.4">
+                <div class="intro__layer-4">
+                  <div class="prob__label-1">
+                    <div class="prob__label flex flex-center-vertical">
+                      <div class="prob__label-wrap"><span class="prob__label-text">Новые клиенты</span><span class="prob__label-sub">+ 1 321</span></div>
+                      <svg>
+                        <use xlink:href="images/sprites.svg#graph"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="about__label-2"><img src="images/chart.png" alt="intro-img"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <main class="main">
+        <section class="main-scroll">
+          <section class="price-section">
+            <div class="container">
+              <h3 class="price-title">Комплексные решения для бизнеса — это полезный и облегчающий жизнь бизнесмена продукт, предлагаемый нашей компанией, который нацелен на системное создание, продвижение и сопровождение бизнеса.</h3>
+              <div class="price-wrap">
+                <div class="price">
+                  <div class="price__wrap">
+                    <div class="price__wrap-img">
+                      <div class="price__wrap-icon">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#icon-1"></use>
+                        </svg>
+                      </div>
+                      <p>Узнают все</p>
+                    </div><small class="price__price">от <span>45 000</span> ₽</small>
+                    <div class="price__info">
+                      <ul>
+                        <li>Контекстная реклама</li>
+                        <li>Таргетированная реклама</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <div class="price__wrap">
+                    <div class="price__wrap-img">
+                      <div class="price__wrap-icon">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#icon-2"></use>
+                        </svg>
+                      </div>
+                      <p>Быстрый старт</p>
+                    </div><small class="price__price">от <span>75 000</span> ₽</small>
+                    <div class="price__info">
+                      <ul>
+                        <li>Разработка сайта-визитки</li>
+                        <li>Контекстная реклама</li>
+                        <li>Таргетированная реклама</li>
+                        <li>SEO продвижение</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <div class="price__wrap">
+                    <div class="price__wrap-img">
+                      <div class="price__wrap-icon">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#icon-3"></use>
+                        </svg>
+                      </div>
+                      <p>Landing page</p>
+                    </div><small class="price__price">от <span>90 000</span> ₽</small>
+                    <div class="price__info">
+                      <ul>
+                        <li>Разработка лэндинга</li>
+                        <li>Контекстная реклама</li>
+                        <li>Таргетированная реклама</li>
+                        <li>SEO продвижение</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <div class="price__wrap">
+                    <div class="price__wrap-img">
+                      <div class="price__wrap-icon">
+                        <svg>
+                          <use xlink:href="images/sprites.svg#icon-4"></use>
+                        </svg>
+                      </div>
+                      <p>Онлайн трейд</p>
+                    </div><small class="price__price">от <span>150 000</span> ₽</small>
+                    <div class="price__info">
+                      <ul>
+                        <li>Разработка интернет-магазина</li>
+                        <li>Контекстная реклама</li>
+                        <li>Таргетированная реклама</li>
+                        <li>SEO продвижение</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="prob-section">
+            <div class="container">
+              <div class="prob flex flex-space-between">
+                <div class="prob__info">
+                  <h3 class="prob__title">Вы уже столкнулись с такими проблемами?</h3>
+                  <p class="prob__sub">Комплексные решения для бизнеса — это полезный и облегчающий жизнь бизнесмена продукт, предлагаемый.</p>
+                  <div class="prob__wrap">
+                    <ul>
+                      <li>Срыв сроков</li>
+                      <li>Нулевая отдача</li>
+                      <li>Невыполнение обязательств</li>
+                      <li>Слив бюджета</li>
+                      <li>Непонимание бизнеа</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="prob__img"><img src="images/prob.jpg" alt="prob-img">
+                  <div class="prob__label prob__label-1 flex flex-center-vertical">
+                    <div class="prob__label-wrap"><span class="prob__label-text">Новые клиенты</span><span class="prob__label-sub">+ 1 321</span></div>
+                    <svg>
+                      <use xlink:href="images/sprites.svg#graph"></use>
+                    </svg>
+                  </div>
+                  <div class="prob__label prob__label-2 flex flex-center-vertical">
+                    <svg>
+                      <use xlink:href="images/sprites.svg#graph"></use>
+                    </svg>
+                  </div>
+                  <div class="prob__label prob__label-3"><img src="images/prob-1.svg" alt="prob-img"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="about-section">
+            <div class="container">
+              <div class="about flex">
+                <div class="about__info-wrap">
+                  <div class="about__info about__info-main"><img src="images/logo-inner.png" alt="logo-inner-img"><small class="about__title">Мы — агентство STARTIB</small>
+                    <p class="about__text">Мы — агентство STARTIB — занимаемся всем, что связано с интернет-продвижением вашего бизнеса, и имеем большой опыт в ведении различных интернет-проектов.</p><a class="btn" href="#head2">Связаться с нами</a>
+                  </div>
+                  <div class="about__info white tail tail-2"><small class="about__title">Эфективные решения</small>
+                    <p class="about__text">Мы ориентированы только на то, чтобы вывести ваш бизнес в ТОП, и ничего лишнего. Создание качественного интернет-продукта всегда подкрепляется внедрением современных маркетинговых стратегий, повышающих продажи, потребление услуг и узнаваемость бренда.</p>
+                  </div>
+                </div>
+                <div class="about__holder">
+                  <div class="about__wrap flex">
+                    <div class="about__info wrap"><small class="about__title-big">10</small>
+                      <p class="about__text-big">лет опыта</p>
+                    </div>
+                    <div class="about__info white"><small class="about__title">Адекватные цены</small>
+                      <p class="about__text">Мы предоставляем клиенту стоимость той или иной услуги после этапа проектирования. Хотя это может показаться и не так, но у разных сфер бизнеса разные задачи, разный подход к клиенту, разные желания и цели. Любой бизнес индивидуален, и мы хорошо это понимаем.</p>
+                    </div>
+                    <div class="about__info-img about__info-img1"><img src="images/about-img.jpg" alt="about-img">
+                      <div class="about__label about__label-1">
+                        <div class="about__label-wrapper flex flex-space-between"><span class="about__label-sub">Стоимость клиента</span>
+                          <svg>
+                            <use xlink:href="images/sprites.svg#points"></use>
+                          </svg>
+                        </div>
+                        <div class="about__label-holder flex flex-center-vertical">
+                          <div class="about__label-hold"><span class="about__label-price">120,50 ₽</span>
+                            <div class="about__label-wrap flex flex-center-vertical">
+                              <svg>
+                                <use xlink:href="images/sprites.svg#arrow-up"></use>
+                              </svg><span class="about__label-span">9.1%</span>
+                            </div>
+                          </div>
+                          <svg class="longer">
+                            <use xlink:href="images/sprites.svg#graph-long"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="about__info wrap"><small class="about__title-big">20</small>
+                      <p class="about__text-big">экспертов</p>
+                      <div class="about__label about__label-2">
+                        <svg class="longer">
+                          <use xlink:href="images/sprites.svg#graph-dis"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="about__wrap flex">
+                    <div class="about__info white tail"><small class="about__title">Выполнение в срок</small>
+                      <p class="about__text">Наряду с качеством, для нас важны сроки реализации проекта. Мы можем запланировать окончательный результат, к которому стремимся в итоге, но первые версии, которые позволяют развивать бизнес, запускаем уже через неделю.</p>
+                    </div>
+                    <div class="about__info quarter wrap"><small class="about__title-big">200 +</small>
+                      <p class="about__text-big">успешных проектов</p>
+                    </div>
+                    <div class="about__info white tail tail-1"><small class="about__title">Эфективные решения</small>
+                      <p class="about__text">Мы ориентированы только на то, чтобы вывести ваш бизнес в ТОП, и ничего лишнего. Создание качественного интернет-продукта всегда подкрепляется внедрением современных маркетинговых стратегий, повышающих продажи, потребление услуг и узнаваемость бренда.</p>
+                    </div>
+                    <div class="about__info-img about__info-img2"><img src="images/about-img.jpg" alt="about-img"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="team-section">
+            <div class="container">
+              <div class="team flex flex-space-between flex-center-vertical">
+                <div class="team-info">
+                  <h2 class="team-info__title">С нами уже работают</h2>
+                  <p class="team-info__text">Комплексные решения для бизнеса — это полезный и облегчающий жизнь бизнесмена продукт, предлагаемый.</p>
+                  <div class="team-btn-1"><a class="btn" href="#head3">Присоедениться к нам</a></div>
+                </div>
+                <div class="team-slider">
+                  <div class="team-slider__wrap flex flex-space-between">
+                    <div class="team-slider__card">
+                      <div class="team-slider__card-img"><img src="images/team-img-1.png" alt="team-img-1"></div>
+                      <div class="team-slider__card-img"><img src="images/team-img-2.png" alt="team-img-2"></div>
+                      <div class="team-slider__card-img team-slider__card-hide"><img src="images/team-img-3.svg" alt="team-img-3"></div>
+                    </div>
+                    <div class="team-slider__card card-hide">
+                      <div class="team-slider__card-img"><img src="images/team-img-3.svg" alt="team-img-3"></div>
+                      <div class="team-slider__card-img"><img src="images/team-img-3.svg" alt="team-img-4"></div>
+                    </div>
+                    <div class="team-slider__card">
+                      <div class="team-slider__card-img team-slider__card-hide"><img src="images/team-img-3.svg" alt="team-img-4"></div>
+                      <div class="team-slider__card-img"><img src="images/team-img-5.png" alt="team-img-5"></div>
+                      <div class="team-slider__card-img"><img src="images/team-img-6.svg" alt="team-img-6"></div>
+                    </div>
+                    <div class="team-slider__card">
+                      <div class="team-slider__card-img"><img src="images/team-img-6.svg" alt="team-img-7"></div>
+                      <div class="team-slider__card-img"><img src="images/team-img-8.png" alt="team-img-8"></div>
+                      <div class="team-slider__card-img team-slider__card-hide"><img src="images/team-img-9.png" alt="team-img-9"></div>
+                    </div>
+                    <div class="team-slider__card card-hide">
+                      <div class="team-slider__card-img"><img src="images/team-img-9.png" alt="team-img-9"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="team-btn-2"><a class="btn" href="#head8">Присоедениться к нам</a></div>
+            </div>
+          </section>
+          <section class="portfolio-section">
+            <div class="container">
+              <div class="portfolio flex"><a class="portfolio-item big-card" href="#">
+                  <div class="portfolio__img"><img class="bg-i" src="images/port-bg.png" alt="catalog-item" style="background-image: url(images/port-1.jpg);"></div>
+                  <div class="portfolio__info"><small class="portfolio__title">Internetmagazin.ru</small>
+                    <ul>
+                      <li class="lime"> Интернет магазин</li>
+                      <li class="green">Seo продвижение</li>
+                      <li class="blue">Вёрстка</li>
+                    </ul>
+                  </div></a><a class="portfolio-item" href="#">
+                  <div class="portfolio__img"><img class="bg-i" src="images/port-bg-small.png" alt="catalog-item" style="background-image: url(images/port-2.jpg);"></div>
+                  <div class="portfolio__info"><small class="portfolio__title">Internetmagazin.ru</small>
+                    <ul>
+                      <li class="green">Seo продвижение</li>
+                      <li class="blue">Вёрстка</li>
+                    </ul>
+                  </div></a><a class="portfolio-item small-card" href="#">
+                  <div class="portfolio__img"><img class="bg-i" src="images/port-bg-small-2.png" alt="catalog-item" style="background-image: url(images/port-3.jpg);"></div>
+                  <div class="portfolio__info"><small class="portfolio__title">Internetmagazin.ru</small>
+                    <ul>
+                      <li class="blue">Вёрстка</li>
+                    </ul>
+                  </div></a><a class="portfolio-item" href="#">
+                  <div class="portfolio__img"><img class="bg-i" src="images/port-bg-small.png" alt="catalog-item" style="background-image: url(images/port-4.jpg);"></div>
+                  <div class="portfolio__info"><small class="portfolio__title">Internetmagazin.ru</small>
+                    <ul>
+                      <li class="green">Seo продвижение</li>
+                    </ul>
+                  </div></a><a class="portfolio-item" href="#">
+                  <div class="portfolio__img"><img class="bg-i" src="images/port-bg-small.png" alt="catalog-item" style="background-image: url(images/port-5.jpg);"></div>
+                  <div class="portfolio__info"><small class="portfolio__title">Internetmagazin.ru</small>
+                    <ul>
+                      <li class="lime"> Интернет магазин</li>
+                      <li class="green">Seo продвижение</li>
+                    </ul>
+                  </div></a></div>
+              <button class="btn secondary portfolio-btn">Посмотреть все проекты</button>
+            </div>
+          </section>
+          <section class="description-section">
+            <div class="container">
+              <div class="description">
+                <div class="prob flex flex-space-between">
+                  <div class="prob__info">
+                    <h3 class="prob__title">Мы имеем обширный опыт разработки</h3>
+                    <p class="prob__sub">Мы с лёгкостью можем создать корпоративный сайт для вашей компании. Мы способны настроить для вашего сайта удобный, полезный, индивидуальный функционал, который будет отвечать уникальным запросам вашего бизнеса.</p>
+                    <div class="prob__wrap">
+                      <ul>
+                        <li>Создание сайтов</li>
+                        <li>Продвижение сайтов</li>
+                        <li>Поддержка сайтов</li>
+                        <li>Комплексные решения</li>
+                        <li>Улучшения</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="prob__wrapper">
+                    <div class="descr__label-wp"><img src="images/wp.png" alt="img-label"></div>
+                    <div class="prob__label prob__label-4">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#desc-icon"></use>
+                      </svg>
+                    </div>
+                    <div class="descr-info"><small class="descr-title">Комплексные решения</small>
+                      <div class="line"></div>
+                      <p class="descr-text">Мы создаем не просто сайт, а пакетное решение для бизнеса с гарантией получения заказов! Обеспечиваем быстрый старт и высокую результативность.</p><a class="block-link" href="">Узнать подробнее</a>
+                    </div>
+                    <div class="prob__img"><img src="images/desc-img.png" alt="description-img">
+                      <div class="prob__label prob__label-1 flex flex-center-vertical">
+                        <div class="prob__label-user"><img src="images/descr-user.jpg" alt="descr-user"></div>
+                        <div class="prob__label-wrap"><span class="prob__label-text">Роман Потапенко</span><span class="prob__label-sub">Я выбираю эту компанию!</span>
+                          <svg>
+                            <use xlink:href="images/sprites.svg#rate"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="prob__label prob__label-2 flex flex-center-vertical">
+                        <div class="label-line"></div>
+                        <div class="prob__label-img">
+                          <svg>
+                            <use xlink:href="images/sprites.svg#descr-img"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="form-sectionHead">
+            <div class="form-section">
+              <div id="parallax-container">
+                <div class="form-layer parallax" data-depth="0.2">
+                  <div class="about__label about__label-1">
+                    <div class="about__label-wrapper flex flex-space-between"><span class="about__label-sub">Стоимость клиента</span>
+                      <svg>
+                        <use xlink:href="images/sprites.svg#points"></use>
+                      </svg>
+                    </div>
+                    <div class="about__label-holder flex flex-center-vertical">
+                      <div class="about__label-hold"><span class="about__label-price">120,50 ₽</span>
+                        <div class="about__label-wrap flex flex-center-vertical">
+                          <svg>
+                            <use xlink:href="images/sprites.svg#arrow-up"></use>
+                          </svg><span class="about__label-span">9.1%</span>
+                        </div>
+                      </div>
+                      <svg class="longer">
+                        <use xlink:href="images/sprites.svg#graph-long"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="about__label-5">
+                    <div class="about__label">
+                      <div class="about__label-holder flex flex-center-vertical">
+                        <div class="about__label-hold">
+                          <div class="about__label-wrap flex flex-center-vertical"><span class="about__label-span">Запросы</span></div><span class="about__label-price">+2 486</span>
+                        </div><img src="images/circ.svg" alt="layer-img">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="about__label-6">
+                    <div class="about__label">
+                      <div class="about__label-holder flex flex-center-vertical">
+                        <div class="longer">
+                          <svg>
+                            <use xlink:href="images/sprites.svg#barchart"></use>
+                          </svg>
+                        </div>
+                        <div class="about__label-hold">
+                          <div class="about__lab-wrap flex flex-center-vertical"><span class="about__lab-span">52</span><span class="about__lab-pers">8%</span></div><span class="about__label-price">Продажи</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="about__label-7"><img src="images/pers-img.png" alt="lay-img"></div>
+                </div>
+                <div class="form-layer form-layer-2 parallax" data-depth="0.6">
+                  <div class="form-layer__wrap form-layer__wrap-1 flex flex-center-vertical">
+                    <div class="form-layer__img"><img src="images/img-1.jpg" alt="form-layer-img-1"></div>
+                    <p class="form-layer__info">Понимание бизнеса</p>
+                  </div>
+                  <div class="form-layer__wrap form-layer__wrap-2 flex flex-center-vertical">
+                    <div class="form-layer__img wh40"><img src="images/img-2.jpg" alt="form-layer-img-2"></div>
+                    <p class="form-layer__info pf8">Без переплат</p>
+                  </div>
+                  <div class="form-layer__wrap form-layer__wrap-3 flex flex-center-vertical">
+                    <div class="form-layer__img"><img src="images/img-2.jpg" alt="form-layer-img-3"></div>
+                    <p class="form-layer__info">Без переплат</p>
+                  </div>
+                  <div class="form-layer__wrap form-layer__wrap-4 flex flex-center-vertical">
+                    <div class="form-layer__img wh36"><img src="images/img-3.jpg" alt="form-layer-img-4"></div>
+                    <p class="form-layer__info pf9">Отличная работа</p>
+                  </div>
+                  <div class="form-layer__wrap form-layer__wrap-5 flex flex-center-vertical">
+                    <div class="form-layer__img wh60"><img src="images/img-4.jpg" alt="form-layer-img-5"></div>
+                    <p class="form-layer__info pf10">Точно в срок</p>
+                  </div>
+                  <div class="form-layer__wrap form-layer__wrap-6 flex flex-center-vertical">
+                    <div class="form-layer__img"><img src="images/img-4.jpg" alt="form-layer-img-6"></div>
+                    <p class="form-layer__info">Точно в срок</p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-bg"><img src="images/form-bg.png" alt="form-bg"></div>
+              <div class="form-wrapper" id="head1">
+                <div class="form" id="head2">
+                  <form class="contact-form" id="main-form">
+                    <div class="form-icon" id="head3">
+                      <svg>
+                        <use xlink:href="images/sprites.svg#form-icon"></use>
+                      </svg>
+                    </div>
+                    <div class="contact-form__wrap" id="head8">
+                      <div class="contact-form__holder flex">
+                        <div class="contact-form__wrapper">
+                          <label class="LPlaceholder contact-form__label" for="name">Имя</label>
+                          <input class="iText contact-form__input" data-parsley-required-message="Поле обязательно для заполнения" type="text" name="name" id="name" placeholder="Имя" required>
+                        </div>
+                        <div class="contact-form__wrapper">
+                          <label class="LPlaceholder contact-form__label" for="tel">Телефон</label>
+                          <input class="iText contact-form__input tel" data-parsley-pattern-message="" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$" data-parsley-required-message="Поле обязательно для заполнения" type="text" name="tel" id="tel" placeholder="Телефон" required>
+                        </div>
+                        <div class="contact-form__wrapper">
+                          <label class="LPlaceholder contact-form__label" for="email">E-mail</label>
+                          <input class="iText contact-form__input" data-parsley-required-message="Поле обязательно для заполнения" type="text" name="email" id="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-thanks">
+                          <div class="form-thanks__wrap">
+                            <small class="title">Спасибо!</small>
+                            <p class="text">Мы скоро с вами свяжемся :)</p>
+                            <p class="form-thanks__btn btn" onclick="callbackClose();">Хорошо</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contact-form__footer">
+                      <div class="contact-form__check" onclick="onCallbackSubmit();">
+                        <button class="btn" type="button" id="submitBtn">Связаться с нами</button>
+                      </div>
+                      <div class="build-check">
+                        <input class="build-check__input" type="checkbox" id="send" required data-parsley-errors-messages-disabled>
+                        <label class="build-check__label" for="send"></label><span>Я согласен на обработку&nbsp<a href="#">персональных данных.</a></span>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-holder flex flex-space-between flex-center-vertical">
+            <div class="footer-holder__wrap">
+              <ul>
+                <li><a class="footer-phone" href="tel:74951286747">+7 (495) 128-67-47</a></li>
+                <li><a href="mailto:info@startib.agency">info@startib.agency</a></li>
+                <li> г.Санкт-Петербург, ул. Вербная д.27</li>
+              </ul>
+            </div>
+            <div class="footer-holder__list">
+              <ul class="flex flex-space-between flex-center-vertical">
+                <li><a href="">О комапании</a></li>
+                <li><a href="">Портфолио</a></li>
+                <li><a href="services.html">Наши услуги</a></li>
+                <li><a href="">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="footer-holder__icons flex flex-space-between flex-center-vertical"><a class="footer-holder__icon" href="">
+                <svg>
+                  <use xlink:href="images/sprites.svg#fb"></use>
+                </svg></a><a class="footer-holder__icon" href="">
+                <svg>
+                  <use xlink:href="images/sprites.svg#vk"></use>
+                </svg></a><a class="footer-holder__icon" href="">
+                <svg>
+                  <use xlink:href="images/sprites.svg#inst"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/libs/jquery-3.4.1.min.js"></script>
+    <script src="js/libs/parsley.min.js"></script>
+    
+    
+    <script src="js/libs/jquery.inputmask.min.js"></script>
+    <script src="js/libs/slick.min.js"></script>
+    <script src="js/libs/svgxuse.min.js"></script>
+    <script src="js/libs/parallax.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
